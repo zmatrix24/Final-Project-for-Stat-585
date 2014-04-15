@@ -7,9 +7,7 @@ A glimpse of the development of IT companies
 
 
 ```{r echo=FALSE, message=FALSE}
-#Load required packages
-require(ggplot2)
-require(onion) 
+
 ```
 
 #### Topic
