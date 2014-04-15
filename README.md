@@ -6,9 +6,7 @@ A glimpse of the development of IT companies
 *Sen Zhou*
 
 
-```{r echo=FALSE, message=FALSE}
 
-```
 
 #### Topic
 Google, Apple, Yahoo, IBM, Facebook, Twitter, AT&T... this list can go longer and longer. Yes, they are all IT companies and they represent new trends, science and technology.
