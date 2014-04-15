@@ -29,17 +29,15 @@ Right now, I am thinking about data from Google Finance
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-
-```
 http://www.google.com/finance
 
-
-
-
-
-```{r fig.width=7, fig.height=6, warning=FALSE, message=FALSE, echo=FALSE}
-
 ```
+
+
+
+
+
+
 
 
 
