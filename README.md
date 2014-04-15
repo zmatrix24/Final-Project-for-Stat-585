@@ -28,12 +28,9 @@ I am interested in the development of those IT companies. And the development is
 Right now, I am thinking about data from Google Finance
 
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
+
+
 http://www.google.com/finance
-
-```
-
-
 
 
 
