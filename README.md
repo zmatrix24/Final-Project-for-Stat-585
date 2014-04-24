@@ -6,11 +6,7 @@ A glimpse of the development of IT companies
 *Sen Zhou*
 
 
-```{r echo=FALSE, message=FALSE}
-#Load required packages
-require(ggplot2)
-require(onion) 
-```
+
 
 #### Topic
 Google, Apple, Yahoo, IBM, Facebook, Twitter, AT&T... this list can go longer and longer. Yes, they are all IT companies and they represent new trends, science and technology.
@@ -32,18 +28,13 @@ I am interested in the development of those IT companies. And the development is
 Right now, I am thinking about data from Google Finance
 
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
 
-```
+
 http://www.google.com/finance
 
 
 
 
-
-```{r fig.width=7, fig.height=6, warning=FALSE, message=FALSE, echo=FALSE}
-
-```
 
 
 
