@@ -1,0 +1,61 @@
+library(quantmod)
+library(ggplot2)
+library(reshape)
+
+
+# tickers example
+tik <- c("IBM", "INTC", "AAPL", "MSFT", "YHOO", "AMZN","TWTR", "FB")
+
+
+getSymbols(tik,, from = 1970-01-01, src="yahoo")
+
+
+
+
+chartSeries(IBM, type = "line" , theme = "white")
+chartSeries(INTC, type = "line" , theme = "white")
+chartSeries(AAPL, type = "line" , theme = "white")
+chartSeries(MSFT, type = "line" , theme = "white")
+chartSeries(YHOO, type = "line" , theme = "white")
+chartSeries(AMZN, type = "line" , theme = "white")
+chartSeries(GOOG, type = "line" , theme = "white")
+chartSeries(FB, type = "line" , theme = "white")
+chartSeries(TWTR, type = "line" , theme = "white")
+
+
+
+GOOG <- read.csv("/Users/senzhou/Dropbox/Spring 14/stat 585X/stat 585X final project/goog.csv")
+str(GOOG)
+#GOOG$Date <- as.character(GOOG$Date)
+head(GOOG)
+GOOG$Date <- as.Date(GOOG$Date, " %d-%b-%y")
+
+
+
+
+
+ggplot( )+ geom_line(data= GOOG, aes(x = Date , y =Close), col= "green")+
+  labs(x="time", y="price",col="green", 
+       title =paste(("GOOG:           "), "           [",paste(c("2004-08-19","2014-03-28"), collapse = "/"),"]")) + 
+  theme(
+    #plot.margin = unit(c(1.5, 1, 1, 1), "cm"), 
+    plot.title = element_text(size = 18, face = "bold", colour = "black", vjust = +1))
+
+
+spl <- getSplits("IBM")
+
+
+
+IBM[index(IBM)=="1999-05-26",]
+
+IBM[index(IBM)=="1999-05-27",]
+
+
+IBM[index(IBM)=="1987-10-19",]
+
+
+
+IBM[index(IBM)=="2000-03-13",]
+
+
+
